@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Job listings with filtering</title>
+	
+	
+	
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	
+	
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	
+		
+<!-- soret el mawke3 -->
+	
+	<!-- <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon"> -->
+	
+	
+	<!-- for fonts -->
+	
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Spartan:wght@500;700&display=swap" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script type="text/javascript" src="script/myscript.js"></script>
+	
+	
+
+	</head>
+
+<body>
+	
+	<!-- header -->
+	
+	<header>
+	</header>
+	
+	
+	<!-- search list -->
+	
+	<div class="search-list">
+	
+		
+		<label onclick="clearr();">Clear</label>
+	</div>
+	
+	<!-- on clear -->
+	<div class="search-list2">
+	
+		
+		<label>Clear</label>
+	</div>
+	
+	
+	<!-- list -->
+	<section class="list">
+		<!-- first article -->
+		<article class="Photosnap">
+	<div>
+		<img src="./images/photosnap.svg" alt=""/>
+		
+		<h4>Photosnap</h4>
+		<h3>New!</h3><h3>Featured</h3>
+		<h1>Senior Frontend Developer</h1>
+		<h2>1d ago</h2> <div></div> <h2>Full Time</h2> <div></div> <h2>USA Only</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('Frontend');">Frontend</span>
+			<span class="it" onclick="chooseOne('Senior');">Senior</span>
+			<span class="it" onclick="chooseOne('HTML');">HTML</span>
+			<span class="it" onclick="chooseOne('CSS');">CSS</span>
+			<span class="it" onclick="chooseOne('JavaScript');">JavaScript</span>
+			
+		</div>
+		</article>
+		
+		<!-- second article -->
+		
+		<article class="manage">
+	<div>
+		<img src="./images/manage.svg" alt=""/>
+		
+		<h4>Manage</h4>
+		<h3>New!</h3><h3>Featured</h3>
+		<h1>Fullstack Developer</h1>
+		<h2>1d ago</h2> <div></div> <h2>Part Time</h2> <div></div> <h2>Remote</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('FullStack');">Fullstack</span>
+			<span class="it" onclick="chooseOne('Midweight');">Midweight</span>
+			<span class="it" onclick="chooseOne('Python');">Python</span>
+			<span class="it" onclick="chooseOne('React');">React</span>
+			
+		</div>
+		</article>
+		
+		<!-- third article -->
+		
+		<article class="account">
+	<div>
+		<img src="./images/account.svg" alt=""/>
+		
+		<h4>Account</h4>
+		<h3>New!</h3>
+		<h1>Junior Frontend Developer</h1>
+		<h2>2d ago</h2> <div></div> <h2>Part Time</h2> <div></div> <h2>USA Only</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('Frontend');">Frontend</span>
+			<span class="it" onclick="chooseOne('Junior');">Junior</span>
+			<span class="it" onclick="chooseOne('JavaScript');">JavaScript</span>
+			<span class="it" onclick="chooseOne('React');">React</span>
+			<span class="it" onclick="chooseOne('Sass');">Sass</span>
+			
+		</div>
+		</article>
+		
+		<!-- fourth article -->
+		
+		<article class="myhome">
+	<div>
+		<img src="./images/myhome.svg" alt=""/>
+		
+		<h4>MyHome</h4>
+		
+		<h1>Junior Frontend Developer</h1>
+		<h2>5d ago</h2> <div></div> <h2>Part Time</h2> <div></div> <h2>Contract</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('Frontend');">Frontend</span>
+			<span class="it" onclick="chooseOne('Junior');">Junior</span>
+			<span class="it" onclick="chooseOne('CSS');">CSS</span>
+			<span class="it" onclick="chooseOne('JavaScript');">JavaScript</span>
+			
+		</div>
+		</article>
+		
+		<!-- fifth article -->
+		
+		<article class="loop-studios">
+	<div>
+		<img src="./images/loop-studios.svg" alt=""/>
+		
+		<h4>Loop Studios</h4>
+		
+		<h1>Software Engineer</h1>
+		<h2>1w ago</h2> <div></div> <h2>Full Time</h2> <div></div> <h2>Worldwide</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('FullStack');">FullStack</span>
+			<span class="it" onclick="chooseOne('Midweight');">Midweight</span>
+			<span class="it"  onclick="chooseOne('JavaScript');">JavaScript</span>
+			<span class="it" onclick="chooseOne('Ruby');">Ruby</span>
+			<span class="it" onclick="chooseOne('Sass');">Sass</span>
+			
+		</div>
+		</article>
+		
+		
+		<!-- sixth article -->
+		
+		<article class="faceIt">
+	<div>
+		<img src="./images/faceit.svg" alt=""/>
+		
+		<h4>FaceIt</h4>
+		
+		<h1>Junior Backend Developer</h1>
+		<h2>2w ago</h2> <div></div> <h2>Full Time</h2> <div></div> <h2>UK Only</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('Backend');">Backend</span>
+			<span class="it" onclick="chooseOne('junior');">Junior</span>
+			<span class="it" onclick="chooseOne('Ruby');">Ruby</span>
+			<span class="it" onclick="chooseOne('RoR');">RoR</span>
+			
+		</div>
+		</article>
+		
+		<!-- seventh article -->
+		
+		<article class="shortly">
+	<div>
+		<img src="./images/shortly.svg" alt=""/>
+		
+		<h4>Shortly</h4>
+		
+		<h1>Junior Developer</h1>
+		<h2>2w ago</h2> <div></div> <h2>Full Time</h2> <div></div> <h2>Worldwide</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('Frontend');">Frontend</span>
+			<span class="it" onclick="chooseOne('Junior');">Junior</span>
+			<span class="it" onclick="chooseOne('HTML');">HTML</span>
+			<span class="it" onclick="chooseOne('JavaScript');">JavaScript</span>
+			<span class="it" onclick="chooseOne('Sass');">Sass</span>
+			
+		</div>
+		</article>
+		
+		
+		<!-- eighth article -->
+		
+		<article class="insure">
+	<div>
+		<img src="./images/insure.svg" alt=""/>
+		
+		<h4>Insure</h4>
+		
+		<h1>Junior Frontend Developer</h1>
+		<h2>2w ago</h2> <div></div> <h2>Full Time</h2> <div></div> <h2>UK Only</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('Frontend');">Frontend</span>
+			<span class="it" onclick="chooseOne('Junior');">Junior</span>
+			<span class="it" onclick="chooseOne('JavaScript');">JavaScript</span>
+			<span class="it" onclick="chooseOne('Vue');">Vue</span>
+			<span class="it" onclick="chooseOne('Sass');">Sass</span>
+			
+		</div>
+		</article>
+
+		
+		
+		<!-- ninth article -->
+		
+		<article class="eyecam">
+	<div>
+		<img src="./images/eyecam-co.svg" alt=""/>
+		
+		<h4>Eyecam Co.</h4>
+		
+		<h1>Full Stack Engineer</h1>
+		<h2>3w ago</h2> <div></div> <h2>Full Time</h2> <div></div> <h2>Worldwide</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('FullStack');">FullStack</span>
+			<span class="it" onclick="chooseOne('Midweight');">Midweight</span>
+			<span class="it" onclick="chooseOne('JavaScript');">JavaScript</span>
+			<span class="it" onclick="chooseOne('Python');">Python</span>
+			<span class="it" onclick="chooseOne('Django');">Django</span>
+			
+		</div>
+		</article>
+		
+		
+		<!-- tenth article -->
+		
+		<article class="air-company">
+	<div>
+		<img src="./images/the-air-filter-company.svg" alt=""/>
+		
+		<h4>The Air Filter Company</h4>
+		
+		<h1>Front-end Devr</h1>
+		<h2>1mo ago</h2> <div></div> <h2>Part Time</h2> <div></div> <h2>Worldwide</h2> 
+		</div>
+		<hr>
+		<div>
+			
+			<span class="it" onclick="chooseOne('Frontend');">Frontend</span>
+			<span class="it" onclick="chooseOne('Junior');">Junior</span>
+			<span class="it" onclick="chooseOne('JavaScript');">JavaScript</span>
+			<span class="it" onclick="chooseOne('React');">React</span>
+			<span class="it" onclick="chooseOne('Sass');">Sass</span>
+			
+		</div>
+		</article>
+
+
+
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+		<script src="https://kit.fontawesome.com/682febeeb9.js" crossorigin="anonymous"></script>
+	
+	
+    
+	</body>
+</html>
